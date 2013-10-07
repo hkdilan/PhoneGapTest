@@ -1,5 +1,6 @@
-var test = (function(module){
+var testing = (function(module){
 	module.DoIt = function(result){
 		result.prepend(Date() + '<br/>');
 	};
-}(test || {}});
+	return module;
+}(testing || {}));
